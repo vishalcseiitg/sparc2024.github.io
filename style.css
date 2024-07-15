@@ -1,0 +1,69 @@
+:root {
+    --orange: #4285F4;
+    --gray: #646469;
+    --white: #FFF;
+    --gray-background: #EDEDED;
+    --headings-font-family: 'Open Sans', sans-serif;
+    --text-font-family: 'Poppins', sans-serif;
+  }
+
+html {
+    scroll-padding-top: 70px; /* height of sticky header */
+  }
+
+body{
+    font-family: var(--text-font-family);
+    color: #3d3d3d;
+
+}
+
+h1, h2, h3, h4, h6{
+    font-family: var(--headings-font-family);
+    font-weight: 700;
+}
+
+.header-bar {
+    background: var(--orange);
+    font-family: var(--text-font-family);
+}
+
+.header-bar__links{
+    color: var(--white);
+}
+
+
+.hero__text{
+    font-family: var(--text-font-family);
+}
+
+a, strong {
+    color: var(--orange);
+}
+
+a:hover, a:focus {
+    color: var(--orange);
+    text-decoration: none;
+}
+
+
+
+.card-title a{
+    color: var(--orange);
+    text-decoration: none;
+
+}
+
+.card-text a{
+    color: var(--gray);
+    text-decoration: none;
+
+}
+.card-title a:hover, .card-text a:hover, .card-title a:focus, .card-text a:focus {
+    text-decoration-line: underline;
+    text-decoration-color:var(--orange);
+    text-decoration-thickness: 3px;
+}
+
+.rounded-circle{
+    border-radius:50%;
+}
